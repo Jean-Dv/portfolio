@@ -6,6 +6,7 @@
     "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.4",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.0.3",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.0.1",
-    "moment": "https://deno.land/x/momentjs@2.29.1-deno/mod.ts"
+    "moment": "https://deno.land/x/momentjs@2.29.1-deno/mod.ts",
+    "virtualstorage": "https://deno.land/x/virtualstorage@0.1.0/mod.ts"
   }
 }
