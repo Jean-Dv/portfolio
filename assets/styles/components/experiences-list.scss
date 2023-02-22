@@ -1,0 +1,56 @@
+.experiences__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+
+    .experiences__list__container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+
+      .experiences__item__lines {
+        margin-left: 40px;
+        margin-top: 32px;
+      
+        .experiences__item__dot {
+          width:14px;
+          height:14px;
+          background: #D1D6E6;
+          border-radius:7px;
+        }
+      
+        .experiences__item__line {
+          height:150px;
+          width:2px;
+          background: #D1D6E6;
+          margin-left:6.1px;
+        }
+      }
+
+      .experiences__item__cards {
+        margin-left: 12px
+      }
+    }
+  
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    place-content: center;
+    align-items: center;*/
+  }
+  
+  @media screen and (max-width: 768px) {
+    .experiences__list {
+      width: 90%;
+      margin: 0 auto;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  

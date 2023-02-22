@@ -1,0 +1,79 @@
+@import '../vars.scss';
+
+.darkMode {
+  .experience__item__card {
+    background: $tertiary-dark;
+
+    h4 {
+      color: $primary-dark
+    }
+
+    .experience__item__date {
+      span {
+        color: $primary-dark;
+      }
+    }
+
+    .experience__item__location {
+      span {
+        color: $primary-dark;
+      }
+    }
+
+    .experience__item__technologies {
+      color: $primary-dark;
+    }
+  }
+}
+
+.experience__item__card {
+  width: 380px;
+  background: #fff;
+  box-shadow: 0 2px 2px 0 #eeeeee40;
+  border-radius: 10px;
+  margin-left: 12px;
+  padding: 1px 0 20px 23px;
+  margin-top: 23px;
+
+  h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 0px;
+    margin-bottom: 6px;
+    color: $secondary;
+  }
+
+  .experience__item__date {
+    span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 22px;
+      color: $primary;
+    }
+  }
+
+  .experience__item__location {
+    span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 22px;
+      color: $primary;
+    }
+  }
+
+  .experience__item__technologies {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .experience__item__card {
+    width: 265px;
+  }
+}
