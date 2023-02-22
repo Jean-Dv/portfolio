@@ -106,6 +106,8 @@
     "https://deno.land/x/ts_morph@16.0.0/mod.ts": "adba9b82f24865d15d2c78ef6074b9a7457011719056c9928c800f130a617c93",
     "https://deno.land/x/ts_morph@16.0.0/ts_morph.d.ts": "38668b0e3780282a56a805425494490b0045d1928bd040c47a94095749dab8c3",
     "https://deno.land/x/ts_morph@16.0.0/ts_morph.js": "9fc0f3d6a3997c2df023fabc4e529d2117d214ffd4fd04247ca2f56c4e9cd470",
+    "https://deno.land/x/virtualstorage@0.1.0/mod.ts": "9449c2f86fab7d09fd7b76446c7852515bbe512cca925a93793e0361d1e266d4",
+    "https://deno.land/x/virtualstorage@0.1.0/virtualStorage.ts": "602965ab9985f0e330587db8b60c2639611622cfd608d1964ade58ed746db09d",
     "https://esm.sh/*@preact/signals-core@1.0.1": "b9b340813266cce6eb9893125439475d2c93d8d03479d12cf189de62783927a2",
     "https://esm.sh/*@preact/signals@1.0.3": "0c7fa9548961281b10103645c28bbc8dc0724a98ac66876d523c897674546a5c",
     "https://esm.sh/*preact-render-to-string@5.2.4": "b5ea1be1c1c40c87e04f7f29921e504032e0afa618ca8941aad479ea0f4d8751",

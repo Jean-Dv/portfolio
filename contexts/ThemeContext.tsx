@@ -1,4 +1,5 @@
 import { Signal, signal } from "@preact/signals";
+import { installGlobals } from "virtualstorage";
 
 export type Theme = "light" | "dark";
 
@@ -7,9 +8,11 @@ interface IAppContext {
   toggleTheme: () => void;
 }
 
+installGlobals();
+
 const theme = signal<Theme>("light");
 
-const storedTheme = window.localStorage.getItem("theme") as Theme | null;
+const storedTheme = localStorage.getItem("theme") as Theme | null;
 if (storedTheme) {
   theme.value = storedTheme;
   setCSSTheme(storedTheme);
@@ -18,7 +21,7 @@ if (storedTheme) {
 function toggleTheme() {
   const newTheme = theme.value = theme.value === "light" ? "dark" : "light";
   theme.value = newTheme;
-  window.localStorage.setItem("theme", newTheme);
+  localStorage.setItem("theme", newTheme);
   setCSSTheme(newTheme);
 }
 
